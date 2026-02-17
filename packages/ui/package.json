@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "type": "module",
   "main": "./src/index.ts",
+  "repository": "https://github.com/private-monorepo/private-monorepo",
   "exports": {
     ".": "./src/index.ts",
     "./components": "./src/components"
