@@ -1,10 +1,10 @@
 import React from 'react'
 import { ButtonProps, View, Text } from "react-native";
  
-export const Button: React.FunctionComponent<ButtonProps> = () => {
+export const Test: React.FunctionComponent<ButtonProps> = () => {
     return (
         <View>
-            <Text>Button Hello World Hello</Text>
+            <Text>Another Text</Text>
         </View>
     )
 }

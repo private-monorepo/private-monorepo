@@ -6,8 +6,9 @@
   "repository": "https://github.com/private-monorepo/private-monorepo",
   "exports": {
     ".": "./src/index.ts",
-    "./components": "./src/components"
+    "./components": "./src/components/index.ts"
   },
+  "sideEffects": false,
   "files": [
     "components",
     "src"
@@ -23,7 +24,7 @@
     "check:typescript": "tsc --noEmit"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/react": "19.2.14"
+    "@types/react": "catalog:",
+    "typescript": "catalog:"
   }
 }

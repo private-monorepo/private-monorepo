@@ -1,6 +1,22 @@
 {
   "name": "expo",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
   "dependencies": {
+    "expo": "catalog:",
+    "expo-status-bar": "~3.0.9",
+    "react": "catalog:",
+    "react-native": "catalog:",
     "@testmonorepotest/ui": "workspace:*"
-  }
+  },
+  "devDependencies": {
+    "@types/react": "catalog:",
+    "typescript": "catalog:"
+  },
+  "private": true
 }
