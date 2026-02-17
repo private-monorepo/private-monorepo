@@ -1,0 +1,6 @@
+{
+  "name": "expo",
+  "dependencies": {
+    "@testmonorepotest/ui": "workspace:*"
+  }
+}
